@@ -1,54 +1,92 @@
-# 🏆 HR Analytics Dashboard: Employee Attrition Analysis
+# 👥 Employee Attrition Analysis & Insights Dashboard
 
 ## 📌 Project Overview
-
-This project analyzes employee attrition using SQL and Power BI to identify key factors influencing employee turnover and provide actionable insights for better decision-making.
-
----
-
-## 🎯 Objectives
-
-* Analyze employee attrition patterns
-* Identify key factors affecting employee turnover
-* Build an interactive and insightful dashboard
+An interactive Power BI dashboard analyzing attrition patterns across 1,470 employees — built to help HR teams understand why employees leave and take proactive steps to improve retention.
 
 ---
 
-## 🛠 Tools & Technologies
-
-* SQL
-* Power BI
-* Excel
+## 🎯 Business Problem
+High employee turnover is costly and disruptive. This project identifies **who is leaving, why they are leaving, and what HR teams can do about it** using data-driven insights.
 
 ---
 
-## 📊 Key Insights
+## 📊 Dashboard Preview
+![Employee Attrition Dashboard](dashboard.png)
 
-* Attrition rate is **16.12%**, indicating moderate turnover
-* Employees with **low tenure (0–2 years)** show higher attrition
-* Employees working **overtime are more likely to leave**
-* **Low job satisfaction** strongly impacts attrition
-* **Younger employees** have higher turnover
+---
+
+## 🔍 Key Insights
+- 📊 Overall attrition rate is **16.12%** — 237 out of 1,470 employees left
+- ⏰ Employees working **overtime** are significantly more likely to leave
+- 🕐 Highest attrition among employees with **0–2 years tenure**
+- 😔 **Low job satisfaction** strongly correlates with attrition
+- 🏢 **Research & Development** department has the highest attrition count
+- 👶 **Young employees** show higher turnover than senior employees
+
+---
+
+## 💡 Business Recommendations
+- Reduce **mandatory overtime** — it is the strongest attrition trigger
+- Strengthen **onboarding and engagement** for new employees (0–2 years)
+- Conduct regular **job satisfaction surveys** and act on results
+- Focus retention programs on **R&D department** first
+- Create **career growth paths** for young employees to improve retention
+
+---
+
+## 🛠️ Tools & Technologies
+| Tool | Usage |
+|------|-------|
+| Excel | Data Cleaning & Preparation |
+| Power BI | Dashboard & Visualizations |
+| DAX | Calculated Measures & KPIs |
+
+---
+
+## 📁 Dataset Details
+| Field | Description |
+|-------|-------------|
+| Employee ID | Unique employee identifier |
+| Department | HR, Research & Development, Sales |
+| Job Role | Various roles across departments |
+| Salary Band | Low, Medium, High |
+| Job Satisfaction | Rating scale 1–4 |
+| Overtime | Yes / No |
+| Years at Company | Tenure in years |
+| Attrition | Yes (Left) / No (Stayed) |
 
 ---
 
 ## 📈 Dashboard Features
-
-* Overview of key HR metrics (Total Employees, Attrition Rate, Employees Left, Avg Salary)
-* Attrition analysis by **Salary Band, Age Group, Job Satisfaction**
-* Impact of **Overtime and Years at Company**
-* Detailed employee-level attrition view
+- ✅ Filter — Department
+- ✅ KPI Cards — Total Employees, Attrition Rate, Employees Left, Avg Salary
+- ✅ Attrition Distribution (Pie Chart)
+- ✅ Salary Band Distribution (Donut Chart)
+- ✅ Attrition by Department (Bar Chart)
+- ✅ Attrition by Salary Band (Bar Chart)
+- ✅ Attrition by Job Satisfaction (Bar Chart)
+- ✅ Attrition by Age Group (Bar Chart)
+- ✅ Attrition by Overtime Status (Bar Chart)
+- ✅ Attrition by Years at Company (Line Chart)
+- ✅ Employees Who Left — Detailed Table
 
 ---
 
-## 🚀 Conclusion
-
-The dashboard provides valuable insights into employee behavior and helps organizations take data-driven decisions to improve employee retention.
+## 🚀 How to Use
+1. Clone or download this repository
+2. Open the `.pbix` file in **Power BI Desktop**
+3. Use the Department filter to drill into specific teams
+4. Cross-reference charts to identify attrition patterns
 
 ---
 
-## 👩‍💻 Author
-
+## 👤 Author
 **Rakshitha M Rabakavi**
-BCA Final Year Student | Aspiring Data Analyst
+📧 rakshitharabakavi@gmail.com
+📞 8197452309
+🔗 [LinkedIn](https://www.linkedin.com/in/rakshitha-rabakavi-7b78b3275)
+🐙 [GitHub](https://github.com/Rakahitha1246)
 
+---
+
+> *"1 in 6 employees is leaving — this dashboard tells you exactly why."*
