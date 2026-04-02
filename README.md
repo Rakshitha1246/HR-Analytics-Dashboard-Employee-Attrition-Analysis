@@ -10,11 +10,6 @@ High employee turnover is costly and disruptive. This project identifies **who i
 
 ---
 
-## 📊 Dashboard Preview
-![Employee Attrition Dashboard](dashboard.png)
-
----
-
 ## 🔍 Key Insights
 - 📊 Overall attrition rate is **16.12%** — 237 out of 1,470 employees left
 - ⏰ Employees working **overtime** are significantly more likely to leave
