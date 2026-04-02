@@ -69,9 +69,8 @@ High employee turnover is costly and disruptive. This project identifies **who i
 
 ## 🚀 How to Use
 1. Clone or download this repository
-2. Open the `.pbix` file in **Power BI Desktop**
-3. Use the Department filter to drill into specific teams
-4. Cross-reference charts to identify attrition patterns
+2. Use the Department filter to drill into specific teams
+3. Cross-reference charts to identify attrition patterns
 
 ---
 
